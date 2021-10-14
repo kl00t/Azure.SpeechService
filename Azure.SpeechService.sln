@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.SpeechService", "Azure.SpeechService\Azure.SpeechService.csproj", "{2C89518C-69D7-4E06-88C1-880B98C11C96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C89518C-69D7-4E06-88C1-880B98C11C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C89518C-69D7-4E06-88C1-880B98C11C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C89518C-69D7-4E06-88C1-880B98C11C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C89518C-69D7-4E06-88C1-880B98C11C96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69FDC263-BDAF-483D-8645-A8F2FDD0752F}
+	EndGlobalSection
+EndGlobal

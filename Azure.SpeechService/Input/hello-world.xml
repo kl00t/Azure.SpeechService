@@ -1,0 +1,53 @@
+﻿<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+
+  <voice name="en-US-ChristopherNeural">
+    <prosody rate="-5.00%" volume="-20.00%">
+      Welcome to <prosody pitch="high">Microsoft Cognitive Services</prosody> <break time="200ms" /> Text-to-Speech API.
+    </prosody>>
+  </voice>
+
+  <!--<voice name="en-GB-ChristopherNeural">
+    <prosody contour="(60%,-60%) (100%,+80%)" >
+      Were you the only person in the room?
+    </prosody>
+  </voice>-->
+
+  <!--<voice name="en-US-ChristopherNeural">
+    <p>
+      Your <say-as interpret-as="ordinal"> 1st </say-as> request was for <say-as interpret-as="cardinal"> 1 </say-as> room
+      on <say-as interpret-as="date" format="mdy"> 10/19/2010 </say-as>, with early arrival at <say-as interpret-as="time" format="hms12"> 12:35pm </say-as>.
+    </p>
+  </voice>-->
+
+  <!--<voice name="en-US-ChristopherNeural">
+    <mstts:silence  type="Sentenceboundary" value="200ms"/>
+    If we’re home schooling, the best we can do is roll with what each day brings and try to have fun along the way.
+    A good place to start is by trying out the slew of educational apps that are helping children stay happy and smash their schooling at the same time.
+  </voice>-->
+
+  <!--<voice name="en-US-ChristopherNeural">
+    <p>
+      <s>Introducing the sentence element.</s>
+      <s>Used to mark individual sentences.</s>
+    </p>
+    <p>
+      Another simple paragraph.
+      Sentence structure in this paragraph is not explicitly marked.
+    </p>
+  </voice>-->
+
+  <!--<voice name="en-US-ChristopherNeural">
+    <phoneme alphabet="ipa" ph="təˈmeɪtoʊ"> tomato </phoneme>
+  </voice>-->
+
+  <!--<voice name="en-US-ChristopherNeural">
+    <phoneme alphabet="sapi" ph="iy eh n y uw eh s"> en-US </phoneme>
+  </voice>-->
+
+  <!--<voice name="en-US-ChristopherNeural">
+    <s>
+      His name is Mike <phoneme alphabet="ups" ph="JH AU"> Zhou </phoneme>
+    </s>
+  </voice>-->
+
+</speak>

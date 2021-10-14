@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Ssml\**" />
+    <EmbeddedResource Remove="Ssml\**" />
+    <None Remove="Ssml\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Input\create-existing-project-example.xml" />
+    <None Remove="Input\download.xml" />
+    <None Remove="Input\end.xml" />
+    <None Remove="Input\hello-world.xml" />
+    <None Remove="Input\install-template.xml" />
+    <None Remove="Input\listing.xml" />
+    <None Remove="Input\stacks-api-cqrs-events.xml" />
+    <None Remove="Input\stacks-app-asb-worker.xml" />
+    <None Remove="Input\stacks-app-cqrs-events-aeh.xml" />
+    <None Remove="Input\stacks-app-cqrs-events-asb.xml" />
+    <None Remove="Input\stacks-function-aeh-listener.xml" />
+    <None Remove="Input\stacks-function-asb-listener.xml" />
+    <None Remove="Input\stacks-function-cosmosdb-worker.xml" />
+    <None Remove="Input\templates.xml" />
+    <None Remove="installing.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Input\hello-world.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.18.0" />
+  </ItemGroup>
+
+</Project>
